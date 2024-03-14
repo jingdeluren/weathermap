@@ -1,6 +1,6 @@
 FROM openjdk:8u181-jdk-alpine
 
-RUN sleep 200
+RUN sleep 20033
 
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
     echo "Asia/Shanghai" > /etc/timezone
